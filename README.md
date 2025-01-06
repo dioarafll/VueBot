@@ -32,8 +32,8 @@ Ensure you have the following tools installed:
    First, clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/vue-chatbot-starter.git
-   cd vue-chatbot-starter
+   git clone https://github.com/dioarafll/VueBot.git
+   cd VueBot
    ```
 
 2. **Install Dependencies**
