@@ -1,10 +1,12 @@
 
-
-# Vue Chatbot Template: Integrating Vue Router, Pinia, and TailwindCSS for a Powerful Chat Application
+# Vue Chatbot Template: Integrating Vue and TailwindCSS for a Powerful Chat Application
 
 Template starter profesional untuk membangun aplikasi chatbot menggunakan Vue.js, terintegrasi dengan Vue Router untuk routing, Pinia untuk manajemen state, dan TailwindCSS untuk styling. Template ini menyediakan pondasi yang bersih dan modern untuk membantu Anda memulai proyek chatbot dengan cepat.
 
+---
+
 ## Fitur
+
 - **Vue 3.x** dengan Composition API
 - **Vue Router** untuk routing aplikasi
 - **Pinia** untuk manajemen state
@@ -12,11 +14,12 @@ Template starter profesional untuk membangun aplikasi chatbot menggunakan Vue.js
 - UI chatbot profesional (Demo tersedia)
 - Mencakup alur autentikasi (SignIn, SignUp, ForgotPassword, OTP, dll.)
 
-
+---
 
 ## Instruksi Pengaturan
 
 ### Prasyarat
+
 Pastikan Anda telah menginstal alat-alat berikut:
 - **Node.js** (versi 14.x atau lebih tinggi)
 - **npm** atau **yarn** (pengelola paket)
@@ -55,7 +58,9 @@ Pastikan Anda telah menginstal alat-alat berikut:
 
    Ini akan memulai server pengembangan di [http://localhost:3000](http://localhost:3000).
 
-### Struktur Folder
+---
+
+## Struktur Folder
 
 Struktur folder diorganisasi untuk memudahkan pengembangan:
 
@@ -72,28 +77,36 @@ Struktur folder diorganisasi untuk memudahkan pengembangan:
   tailwind.config.js # Konfigurasi TailwindCSS
 ```
 
-### Pengaturan Vue Router && Demo
+---
+
+## Pengaturan Vue Router && Demo
 
 Aplikasi menggunakan Vue Router untuk mengelola navigasi antar halaman. Rute-rute yang ada pada aplikasi dapat dilihat pada dokumentasi berikut:
 
-1. **SignIn**(https://677baa77b8559f000820c30c--vuebot.netlify.app/signin) (untuk pengguna yang ingin masuk)
-2. **SignUp** (untuk pengguna baru mendaftar)
-3. **ForgotPassword** (untuk pengguna yang lupa kata sandi)
-4. **VerifyPhone** (untuk verifikasi nomor telepon)
-5. **EnterOTP** (untuk memasukkan OTP)
-6. **M2FA** (untuk otentikasi multi-faktor)
-7. **Plans** (untuk melihat paket atau langganan)
-8. **Chat** (untuk percakapan dengan chatbot)
+- [**SignIn**](https://677baa77b8559f000820c30c--vuebot.netlify.app/signin) (untuk pengguna yang ingin masuk)
+- [**SignUp**](https://677baa77b8559f000820c30c--vuebot.netlify.app/signup) (untuk pengguna baru mendaftar)
+- [**ForgotPassword**](https://677baa77b8559f000820c30c--vuebot.netlify.app/forgot-password) (untuk pengguna yang lupa kata sandi)
+- [**VerifyPhone**](https://677baa77b8559f000820c30c--vuebot.netlify.app/verify-phone) (untuk verifikasi nomor telepon)
+- [**EnterOTP**](https://677baa77b8559f000820c30c--vuebot.netlify.app/verify) (untuk memasukkan OTP)
+- [**M2FA**](https://677baa77b8559f000820c30c--vuebot.netlify.app/m2fa) (untuk otentikasi multi-faktor)
+- [**Plans**](https://677baa77b8559f000820c30c--vuebot.netlify.app/plans) (untuk melihat paket atau langganan)
+- [**Chat**](https://677baa77b8559f000820c30c--vuebot.netlify.app/chat) (untuk percakapan dengan chatbot)
 
-### Pengaturan Pinia
+---
+
+## Pengaturan Pinia
 
 Pinia digunakan untuk mengelola state aplikasi. Anda dapat membuat store Pinia untuk mengelola state global aplikasi. Misalnya, store untuk mengelola pesan chatbot yang masuk dan keluar.
 
-### Pengaturan TailwindCSS
+---
+
+## Pengaturan TailwindCSS
 
 TailwindCSS digunakan untuk styling. Secara default, template ini sudah diatur untuk menggunakan kelas utilitas dari TailwindCSS untuk membangun layout responsif. Anda bisa mengonfigurasi pengaturan Tailwind di file `tailwind.config.js`.
 
-### Membangun Aplikasi untuk Produksi
+---
+
+## Membangun Aplikasi untuk Produksi
 
 Untuk membangun aplikasi untuk produksi, jalankan perintah berikut:
 
@@ -105,7 +118,9 @@ yarn build
 
 Perintah ini akan menghasilkan file-file yang dioptimalkan dan diminyaki di folder `dist`, siap untuk dideploy.
 
-### Deployment ke Netlify
+---
+
+## Deployment ke Netlify
 
 1. Push proyek Anda ke GitHub atau GitLab.
 2. Kunjungi [Netlify](https://www.netlify.com/).
@@ -113,7 +128,9 @@ Perintah ini akan menghasilkan file-file yang dioptimalkan dan diminyaki di fold
 4. Netlify akan mendeteksi bahwa Anda menggunakan Vue.js dan menjalankan proses build.
 5. Situs Anda akan langsung tersedia dengan URL unik.
 
-### Praktik Terbaik untuk Chatbot Profesional
+---
+
+## Praktik Terbaik untuk Chatbot Profesional
 
 - **Antrian Pesan**: Untuk chatbot yang profesional, penting untuk mengimplementasikan pengelolaan pesan secara asinkron, di mana pesan dari bot ditampilkan satu per satu kepada pengguna. Ini dapat dilakukan dengan fitur reaktif Vue untuk mengontrol kapan setiap pesan muncul.
   
@@ -122,6 +139,8 @@ Perintah ini akan menghasilkan file-file yang dioptimalkan dan diminyaki di fold
 - **Penanganan Kesalahan**: Selalu implementasikan penanganan kesalahan untuk API calls atau aksi asinkron, seperti pengambilan balasan dari backend atau API pihak ketiga.
 
 - **Autentikasi**: Pastikan bahwa rute yang sensitif seperti `/chat` memerlukan autentikasi yang tepat, terutama dalam menangani pesan pengguna dengan aman.
+
+---
 
 ## Kesimpulan
 
